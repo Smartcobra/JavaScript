@@ -17,3 +17,4 @@ function fruitMixer(apple,orange){
 
 const juiceType=fruitMixer(3,0);
 console.log(juiceType);
+console.log("hi");
