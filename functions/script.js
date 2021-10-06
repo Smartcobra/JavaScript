@@ -22,7 +22,11 @@
 ///////function declaration and function expression
 
 
+<<<<<<< HEAD
 //////////////////function in a declarative way
+=======
+///function in a declarative way
+>>>>>>> dfe90c2cd5659fea397faadea14370716c430ee5
 // function getAge(birthYear){
 //   return 2037-birthYear;
 // }
@@ -37,6 +41,7 @@
 
 // console.log(age1,age2);
 
+//<<<<<<< HEAD
 ////Arrow functions//////////////////
 ///////////Arrow functions with no param
  const getAge3=birthYear=>2037-birthYear;
@@ -64,3 +69,19 @@ const getRetirment2=(birthYear,name)=>{
 
 const retire=getRetirment2(1991,"john")
 console.log(retire);
+//=======
+// //Arrow function-
+
+// const calAge3= birthYear=>2037-birthyear;
+// console.log(calAge3(1991))
+
+
+const yearUntilRetire= (birthYear,name)=>{
+  const age4=2037-birthYear;
+  const retire=65-age4;
+
+  return `${name} has ${age4} to retire`;
+}
+
+console.log(yearUntilRetire(1991,"jitu"))
+>>>>>>> dfe90c2cd5659fea397faadea14370716c430ee5
