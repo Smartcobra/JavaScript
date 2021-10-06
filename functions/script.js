@@ -22,11 +22,10 @@
 ///////function declaration and function expression
 
 
-<<<<<<< HEAD
+
 //////////////////function in a declarative way
-=======
 ///function in a declarative way
->>>>>>> dfe90c2cd5659fea397faadea14370716c430ee5
+
 // function getAge(birthYear){
 //   return 2037-birthYear;
 // }
@@ -84,4 +83,4 @@ const yearUntilRetire= (birthYear,name)=>{
 }
 
 console.log(yearUntilRetire(1991,"jitu"))
->>>>>>> dfe90c2cd5659fea397faadea14370716c430ee5
+
