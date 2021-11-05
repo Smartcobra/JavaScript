@@ -1,0 +1,40 @@
+Each execution contest have three main parts:
+ 1) variable envirnoment
+ 2) scope chain
+ 3) this keyword
+
+ scope chain
+ ------------------------------------------
+ scoping controls how our program's variable are organised and accessed.
+
+ Lexical scoping: Scoping is controlled by placement of functions and blocks in the code.
+
+
+scope or envirnoment in which a certain variable is declared.
+        there are 3 scopes-
+                          a) global scope
+                          b) function scope
+                          c) block scope (ES6)
+scope of variable: Region of our code where a certain variable can be accessed.
+
+global scope-> 
+                it is outside any function or block.
+               variables are declared in global scope are accessible every where.
+
+function scope->
+                variable accessible only inside function.NOT outside.
+                also called as local scope.
+
+block scope ->
+              variable accesible only inside block (example: if block)
+              only let and const are block scoped.
+              if we declare a variable with var then that varibale can be accesible outside the block also.
+              function also block scoped only in strict mode
+
+-----------------------------------------------------------------------
+TDZ- Temporal Dead Zone
+Makes easier and catch errors : accessing variables before declaration is 
+bad practice and should be avoided.
+
+Makes const variable actually work. As we know const can not be reassigned.
+So it is 
